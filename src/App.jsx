@@ -1,12 +1,11 @@
-import './App.css'
+import React from 'react'
+import Weather from './components/Weather'
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      
-    </>
+    <div className='app'>
+        <Weather/>
+    </div>
   )
 }
 
