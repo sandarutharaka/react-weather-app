@@ -5,10 +5,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+    
+}
+body
+{
+    background-color: #e2d4ff;
 }
 .app
 {
-    background-color: #e2d4ff;
-    min-height: 100vh;
+   
+    height: 100vh;
     display: grid;
+    margin: 0;
 }

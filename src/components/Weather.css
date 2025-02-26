@@ -1,13 +1,15 @@
 .weather
 {
-    place-self: center;
+    
     padding: 40px;
     border-radius: 10px;
     background-image: linear-gradient(45deg , #2616da ,#680c9d);
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    margin: 0;
+    flex-wrap: wrap;
+    align-items: center;  
+    
+    margin: auto;
 }
 .weather-info
 {
@@ -23,6 +25,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    
 }
 .search-bar input
 {
